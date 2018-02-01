@@ -1,0 +1,11 @@
+{
+  "name": "pk-nodejs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/7in14/pk-nodejs.git",
+  "author": "Piotr Karpala <pkarpala@infusion.com>",
+  "license": "MIT",
+  "dependencies": {
+    "hapi": "16"
+  }
+}
