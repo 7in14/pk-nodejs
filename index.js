@@ -1,23 +1,8 @@
 'use strict';
 
-const Hapi = require('hapi');
-const Pinger = require('./utils/pinger');
+const SetupServer = require('./server');
 
-const server = new Hapi.Server();
-server.connection({
-    port: 3000,
-    host: 'localhost'
-});
-
-server.route({
-    method: 'GET',
-    path: '/ping',
-    handler: function (request, reply) {
-
-        const pong = Pinger.sayPong();
-        reply(`You say ping, I say ${pong}!`);
-    }
-});
+const server = SetupServer();
 
 server.start((err) => {
 
