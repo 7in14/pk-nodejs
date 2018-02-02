@@ -2,10 +2,20 @@
   "name": "pk-nodejs",
   "version": "1.0.0",
   "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "lab -c -L -C -l -v --threshold 95 --assert code",
+    "test-cover": "lab -c -L --assert code -r html -o ./test/artifacts/coverage.html && open ./test/artifacts/coverage.html"
+  },
   "repository": "https://github.com/7in14/pk-nodejs.git",
   "author": "Piotr Karpala <pkarpala@infusion.com>",
   "license": "MIT",
   "dependencies": {
     "hapi": "16"
+  },
+  "devDependencies": {
+    "code": "^5.1.2",
+    "lab": "^15.2.1",
+    "nodemon": "^1.14.12"
   }
 }
