@@ -10,6 +10,9 @@
   "repository": "https://github.com/7in14/pk-nodejs.git",
   "author": "Piotr Karpala <pkarpala@infusion.com>",
   "license": "MIT",
+  "engines": {
+    "node": ">=9.0.0"
+  },
   "dependencies": {
     "hapi": "16"
   },
