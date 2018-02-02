@@ -4,7 +4,7 @@ const Lab = require('lab');
 const SetupServer = require('../server');
 const {
     expect
-} = require('Code');
+} = require('code');
 
 const lab = exports.lab = Lab.script();
 

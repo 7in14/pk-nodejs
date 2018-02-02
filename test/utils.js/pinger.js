@@ -4,7 +4,7 @@ const Lab = require('lab');
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment
 const {
     expect
-} = require('Code');
+} = require('code');
 const Pinger = require('../../utils/pinger');
 
 const lab = exports.lab = Lab.script();
