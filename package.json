@@ -14,7 +14,7 @@
     "node": ">=8.0.0"
   },
   "dependencies": {
-    "hapi": "16"
+    "hapi": "18.1.0"
   },
   "devDependencies": {
     "code": "^5.1.2",
